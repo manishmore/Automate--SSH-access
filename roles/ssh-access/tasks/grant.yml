@@ -1,13 +1,5 @@
 ---
 
-- name: Add a new user
-  user:
-    name: "{{ user_dev_name }}"
-    comment: "{{ user_dev }}"
-    shell: /bin/bash
-  tags:
-    - add
-
 - name: Give SSH access
   authorized_key:
     user: "{{ user_dev_name }}"
