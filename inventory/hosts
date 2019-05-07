@@ -1,6 +1,7 @@
 [instances]
 instance1
 instance2
+instance3
 
 [instances:vars]
 user_dev_name=manish
