@@ -1,0 +1,9 @@
+---
+
+- name: Revoke SSH access
+  authorized_key:
+    user: "{{ user_dev_name }}"
+    state: absent
+    key: "{{ lookup('file', '../../../pubsshkeys/{{ user_dev_name }}/id_rsa.pub') }}"
+  tags:
+    - revoke
