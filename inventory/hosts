@@ -1,8 +1,9 @@
 [instances]
-instance1
-instance2
-instance3
+vagrant1 ansible_host=127.0.0.1 ansible_port=2222
+
+[webserver]
+vagrant2 ansible_host=127.0.0.1 ansible_port=2200
 
 [instances:vars]
-user_dev_name=manish
+user_dev_name=vagrant2
 user_dev="developer team User"
