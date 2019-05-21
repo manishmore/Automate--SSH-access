@@ -1,8 +1,10 @@
 # Automate--SSH-access
 
 ``` Automate -SSH-access ```
-``Testes on Vagrant and not on any other system``
+``Tested on Vagrant and not on any other system```
+
 ```Change the file(s)```  
+
    ```inventory/hosts ```
    ```ansible.cfg ```
    ```path change for private_key_file```
